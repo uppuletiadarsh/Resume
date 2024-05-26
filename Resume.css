@@ -1,0 +1,58 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.resume {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    margin: 0;
+    color: #333;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.contact, .skills, .education, .experience {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+section {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.contact, .skills {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.education, .experience {
+    width: 100%;
+}
